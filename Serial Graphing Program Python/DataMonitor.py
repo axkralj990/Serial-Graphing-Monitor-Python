@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 '''
-Arduino serial plotting program - USER INTERFACE
+Serial plotting program - USER INTERFACE
 By: Aleksij Kraljic
 19/1/2016
-This program is written to plot a multiple values sent from Arduino Uno to a PC
-via serial protocol. The main purpose is to plot values from an MPU6050 IMU.
-It is used to analyze motion sensing data in order to gain deeper understanding:
+This program is written to plot a multiple values sent to PC
+via serial protocol. The main purpose was to plot values from an MPU6050 IMU.
+It was used to analyze motion sensing data in order to gain deeper understanding:
 -raw values from the accelerometer and gyroscope
 -data from DMP digital motion processor of the MPU6050
 -filtered spacial orientation data
